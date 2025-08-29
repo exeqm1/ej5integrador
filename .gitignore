@@ -1,0 +1,19 @@
+# Archivos compilados
+build/
+dist/
+*.class
+*.jar
+
+# Archivos de configuración privados de NetBeans
+nbproject/private/
+
+# Archivos de sistema
+*.DS_Store
+*.log
+*.tmp
+
+# Archivos de IDE (opcionales)
+*.iml
+.idea/
+*.ipr
+*.iws
