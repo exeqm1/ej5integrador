@@ -1,13 +1,13 @@
-
 package ej5;
 
-public class OrniAzul extends Castor{
+public class OrniAzul extends Castor {
+
+    private int propulsion;
+
     @Override
-    public void nadar(){
-        
-    }
-    public void propulsion(){
-        
+    public int nadar() {
+        int nadarOrniAzul = super.nadar() + propulsion;
+        return nadarOrniAzul;
     }
 
 }

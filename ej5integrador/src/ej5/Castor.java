@@ -3,9 +3,11 @@ package ej5;
 
 public class Castor {
     private int cola;
-    private int velocidad;//8km/h
+    private int velocidad;      // (hasta 8km/h. ingresar por teclado)
     
-    public void nadar(){
+    public int nadar(){
+        return velocidad;
+
     }    
     public void tocarGuitarra(){
     }
