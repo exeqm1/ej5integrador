@@ -11,6 +11,9 @@ public class OrniVerde extends Castor implements Pata{
         System.out.println("cuac cuaac…!");
     }
     public void tocarGuitorgan(){
+        super.tocarGuitarra();
+        tocarOrgano();
+        
         
     }
 }
