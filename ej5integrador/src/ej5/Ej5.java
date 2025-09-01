@@ -139,7 +139,7 @@ public class Ej5 {
 
         Collections.sort(mejoresNadadores, ordenarAscendente);
 
-        System.out.println("Mejores nadadores ordenador por Propulsion de menor a mayor");
+        System.out.println("Mejores nadadores ordenados por propulsion, de menor a mayor");
 
         for (OrniAzul val : mejoresNadadores) {
             System.out.println(val + ", " + val.getPropulsion() + " km/h");
