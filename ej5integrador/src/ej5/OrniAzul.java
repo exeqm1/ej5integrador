@@ -1,7 +1,7 @@
 package ej5;
 
 public class OrniAzul extends Castor {
-    private final int propulsion;
+    private int propulsion;
     String nombre;
 
     public OrniAzul(int propulsion, String nombre, int cola, int velocidad) {
@@ -16,6 +16,14 @@ public class OrniAzul extends Castor {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public int getPropulsion() {
+        return propulsion;
+    }
+
+    public void setPropulsion(int propulsion) {
+        this.propulsion = propulsion;
     }
     
     
